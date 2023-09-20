@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="ortalama">
+        <div class="container">
+            <div class="box " style="flex-direction: column;">
+                        <div class="checkbox d-flex">
+                           <span style="display: flex; justify-content: center; align-items: center; color: white;">Daha Önce bölüme yerleştim</span> <input type="checkbox" style="width: 20px;" id="checkbox-obp">
+
+                        </div>
+                <h5>Diploma Notu: </h5>
+                <input type="text" placeholder="Diploma Notu" id="obp">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="net">
+        <div class="container">
+            <div class="title text-center mt-20">
+                <h2 class="fw-300 mt-20">TYT Puan hesaplama</h2>
+
+            </div>
+            <div class="dersler text-center m-auto">
+                <div class="turkce ders mr-80" >
+                    <h5>Turkce(40) </h5>
+                    <input type="text" placeholder="Dogru" class="mt-10" id="dogruTurkce">
+                    <input type="text" placeholder="Yanlis" class="mt-10" id="yanlisTurkce">
+                    <p id="turkceNet"></p>
+                </div>
+                <div class="sosyal ders mr-80">
+                    <h5>Sosyal(20) </h5>
+                    <input type="text" placeholder="Dogru" class="mt-10" id="dogruSosyal">
+                    <input type="text" placeholder="Yanlış" class="mt-10" id="yanlisSosyal">
+                    <p id="sosyalNet"></p>
+                </div>
+                <div class="matematik ders mr-80">
+                    <h5>Matematik(40) </h5>
+                    <input type="text" placeholder="Dogru" class="mt-10" id="dogruMatematik">
+                    <input type="text" placeholder="Yanlış" class="mt-10" id="yanlisMatematik">
+                    <p id="matematikNet"></p>
+                </div>
+                <div class="fen ders mr-80">
+                    <h5>Fen(20) </h5>
+                    <input type="text" placeholder="Dogru" class="mt-10" id="dogruFen">
+                    <input type="text" placeholder="Yanlış" class="mt-10" id="yanlisFen">
+                    <p id="fenNet"></p>
+
+                    <button id="btn" onclick="hesapla()"><a href="#demo" style="text-decoration: none; color: black;">Hesapla</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sonuc-tyt">
+        <div class="container">
+            <div class="sonuc">
+                <h5 class="mt-20" style="font-size: 30px;">Puan: </h5> 
+                <p id="demo" style="font-size: 30px;"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="can.js"></script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+
+    background: #7981a6;
+    overflow-x: hidden;
+}
+
+.container {
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+
+}
+
+.box {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 60px;
+}
+
+.box input {
+
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.text-center {
+
+    text-align: center;
+}
+
+.mt-20{
+
+    margin-top: 20px;
+}
+
+
+.fw300{
+
+font-weight: 300;
+
+}
+
+h2{
+
+font-weight: 300;
+color: white;
+margin-top: 10px;
+
+}
+
+.turkce input {
+
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin-top: ;
+}
+
+.turkce h5 {
+
+
+}
+
+h5{
+
+    font-weight: 300;
+    font-size: 19px;
+    color: white;
+}
+
+#net .container{
+
+background: #31525b;
+
+}
+
+.dersler {
+
+    display: flex;
+    margin: 60px;
+
+}
+
+.mr-80{
+
+margin: 80px;
+
+}
+
+
+
+.matematik input {
+
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin-top: ;
+}
+
+
+
+.fen input {
+
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin-top: ;
+}
+
+
+
+.sosyal input {
+
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin-top: ;
+}
+
+.dersler-ayt {
+
+    display: flex;
+}
+
+.d-flex{
+
+    display: flex;
+}
+
+#ayt {
+
+    display: flex;
+}
+
+.m-10{
+
+    margin: 30px;
+}
+
+#ayt .container{
+
+    background: #31525b;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.sonuc-tyt .container{
+    margin-top: 100px;
+    background: #31525b;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sonuc{
+
+}
+
+#btn2 {
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
+    border: none;
+
+}
+
+#btn {
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
+    border: none;
+
+}
+
+#demo {
+
+    color: white;
+}
+
+.ders input{
+
+margin-top: 10px;
+}
+
+#matematikNet {
+
+    color: white;
+
+}
+
+#turkceNet{
+
+    color: #fff;
+
+}
+
+#sosyalNet{
+
+    color: white;
+
+}
+
+#fenNet{
+
+    color: white;
+
+}
